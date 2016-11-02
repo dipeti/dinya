@@ -1,0 +1,242 @@
+/* RESETS*/
+
+ul{
+    padding: 10px;
+    margin: 0 0 20px 0;
+    list-style: none;
+}
+h1, h2{
+    padding: 10px;
+    margin: 0 0 10px 0;
+    font-weight: normal;
+
+}
+p{
+    padding:0;
+    margin: 0 0 0 0;
+
+
+}
+
+.widget_button{
+    text-decoration: none;
+}
+.widget_button:hover{
+    text-decoration: underline;
+}
+li a:link, li a:visited{
+
+    padding: 0 0;
+    margin: 0 0 0 0;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+
+}
+
+ul li{
+    padding: 0 0;
+
+}
+ul li:hover{
+    background: aliceblue;
+    width: 5px;
+    transition: all 0.4s linear ;
+}
+
+ul li input[type="text"], ul li input[type="text"]{
+    width: 200px;
+}
+/* HEADERS */
+h1{
+    font-size: 1.8em;
+
+}
+h2{
+    font-size: 1.4em;
+}
+.logo{
+    color: white;
+    font-size: 2em ;
+    font-family: Copperplate Gothic Light;
+    margin: 0 0 0 0 ;
+    padding: 0;
+    width: 200px;
+
+}
+/* CONTAINERS */
+.main{
+    vertical-align: top;
+    width: 60%;
+    height:90%;
+}
+body{
+    background: url("background2.jpg") no-repeat top center;
+    font-family: Arial;
+    font-size: 0.8em;
+    margin: auto;
+    color: black;
+    height:600px;
+
+}
+#container, footer{
+    background: #ffffff;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 2px 1px grey;
+
+}
+header{
+    width: 900px;
+    padding: 10px;
+    margin:0 auto 10px auto ;
+}
+
+#container{
+
+    border-radius: 5px 5px 0  0;
+    min-height: 350px;
+    height:600px;
+
+}
+footer{
+    margin-bottom: 30px;
+    border-radius:  0 0 5px 5px;
+}
+
+.widget{
+    margin-bottom: 10px;
+}
+.widget h2{
+    margin: 0 0 10px 0;
+    padding: 0 5px;
+
+    border-bottom: 1px solid #ddd;
+    font-family: "Copperplate Gothic Light", serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.widget .inner input {
+
+    margin: 5px 5px 5px 1px;
+    background: #fffffe;
+
+}
+.widget .inner input[type=submit] {
+
+    margin: 5px 5px 5px 1px;
+    background: ButtonFace;
+
+    box-shadow: 1px 1px 1px black;
+
+}
+/* NAVIGATION*/
+nav{
+    float: left;
+    display: inline-block;
+    margin: 10px auto;
+}
+nav a{
+    padding: 5px 30px;
+    background: white;
+    color: black;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0 10px 0  0;
+    box-shadow: 1px 1px 1px black;
+    font-family: "Copperplate Gothic Light";
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a.selected {
+    color: cornflowerblue;;
+}
+nav a:hover{
+    background: lightgray;
+
+
+
+}
+nav ul{
+    margin:0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+    background: white;
+    border-radius: 2px 2px 2px 2px;
+    padding: 5px;
+}
+
+nav ul li.current{
+    font-weight: bold;
+}
+nav ul li.last{
+    border-right: 0;
+}
+/*ASIDE*/
+
+.aside{
+
+    width: 30%;
+    float: right;
+    border-left: 1px dashed #ddd;
+    padding:  8px;
+
+}
+/*LOGfIN*/
+#login li.link{
+    margin: 5px;
+}
+.registerform{
+    padding:10px;
+}
+.registerform label, input{
+    margin: 5px;
+}
+.error{
+    color: red;
+}
+
+/*FOOTER*/
+footer{
+    border-top: 1px dashed #ddd;
+    color: #999;
+    text-align: center;
+}
+/*topic*/
+.topic{
+    margin: 10px 10px 10px 10px;
+    background: aliceblue;
+    box-shadow: 1px 1px 1px grey;
+    width: 100%;
+    min-height: 100px;
+    display: table;
+
+
+}
+.topic .name{
+    padding:10px;
+    float: left;
+    width: 30%;
+    text-align: center;
+
+}
+.topic .text{
+    float: left;
+    width: 65%;
+    padding: 10px 0 10px 0 ;
+
+
+
+
+}
+/**MISC*/
+.clear{
+    margin: 10px 10px 10px 10px;
+    border-bottom: groove blanchedalmond;
+}
+
