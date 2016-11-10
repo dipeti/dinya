@@ -11,4 +11,4 @@ CREATE TABLE users(
   email VARCHAR(100)
 );
 
-INSERT INTO users (username, email) VALUES (sha1('admin'), 'dipeti@live.com');
+INSERT INTO users (username, email) VALUES (sha1('admin'), 'akarmi@live.com');
