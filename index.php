@@ -35,7 +35,7 @@ $replaces = array(
     'widget' => '',
     'login_error' => '',
     'user' => '',
-    'redirect' => $_SERVER['PHP_SELF']
+    'redirect' => $_SERVER['REQUEST_URI']
 
 );
 $errors = array(
