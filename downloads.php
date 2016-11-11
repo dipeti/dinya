@@ -6,15 +6,18 @@ if (Input::exists('file','get')){
     $file =  'files/'.Input::get('get','file','');
     if(file_exists($file)){
         header('Content-Description: File Transfer');
-        header('Content-Type: application/octet-stream');
-        header('Content-Disposition: attachment; filename="'.basename($file).'"');
+        header('Content-Type: application/pdf');
+        header('Content-Disposition: inline; filename="'.basename($file).'"');
         header('Expires: 0');
         header('Cache-Control: must-revalidate');
         header('Pragma: public');
         header('Content-Length: ' . filesize($file));
+        ob_clean();
+        flush();
         readfile($file);
         exit;
     }
+        else die('Requested file does not exist...');
     }
     else {Redirect::to($_SERVER['PHP_SELF']); die('You must be logged in!');}
 }

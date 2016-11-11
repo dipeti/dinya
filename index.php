@@ -6,6 +6,7 @@ function login($inputs, $errors, &$replaces){
 
             Redirect::to(Input::get('get','redirect','index')); die();
     }
+
 }
 function validate($inputs, &$errors, &$replaces){
 
